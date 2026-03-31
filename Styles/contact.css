@@ -1,0 +1,101 @@
+.contact {
+    width: 100%;
+    padding: 80px 10%;
+    animation: showScroll linear both;
+    animation-timeline: view(80% auto);
+}
+
+.contactHeading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactHeading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.contactHeading p {
+    font-size: 16px;
+    color: #888;
+    margin-top: 8px;
+}
+
+.contactContainer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 260px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    border: 1px solid rgba(0, 238, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 238, 255, 0.04);
+    font-size: 14px;
+    color: #c0c0c0;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.contactItem:hover {
+    border-color: #0ef;
+    background-color: rgba(0, 238, 255, 0.08);
+}
+
+.contactItem i {
+    color: #0ef;
+    font-size: 18px;
+    width: 22px;
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 480px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 14px 18px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 238, 255, 0.2);
+    border-radius: 8px;
+    color: #ededed;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: border-color 0.3s ease;
+    resize: vertical;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    color: #666;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+    border-color: #0ef;
+    background-color: rgba(0, 238, 255, 0.05);
+}
+
+.contactForm .btn-primary {
+    align-self: flex-start;
+}

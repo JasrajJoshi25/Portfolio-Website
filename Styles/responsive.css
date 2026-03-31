@@ -1,0 +1,302 @@
+/* =====================
+   RESPONSIVE STYLES
+   ===================== */
+
+/* -------------------------
+   LAPTOP  (769px – 1280px)
+   ------------------------- */
+@media (max-width: 1280px) and (min-width: 769px) {
+    .header {
+        padding: 16px 6%;
+    }
+
+    .home {
+        padding: 100px 6% 60px;
+        gap: 30px;
+    }
+
+    .homeContent h1 {
+        font-size: 46px;
+    }
+
+    .imgContainer {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgWrapper {
+        width: 282px;
+        height: 282px;
+    }
+
+    .about {
+        padding: 80px 6%;
+        gap: 40px;
+    }
+
+    .aboutImg .imgWrapper {
+        width: 270px;
+        height: 270px;
+    }
+
+    .contact {
+        padding: 80px 6%;
+    }
+}
+
+/* -------------------------
+   TABLET  (481px – 768px)
+   ------------------------- */
+@media (max-width: 768px) {
+    /* Navbar → mobile menu */
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: rgba(0, 14, 20, 0.97);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        transition: right 0.4s ease;
+        border-left: 1px solid rgba(0, 238, 255, 0.15);
+        backdrop-filter: blur(12px);
+        z-index: 999;
+    }
+
+    .navbar.open {
+        right: 0;
+    }
+
+    .navbar a {
+        font-size: 20px;
+    }
+
+    /* Home section — stack vertically */
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 6% 60px;
+        text-align: center;
+        min-height: auto;
+        gap: 36px;
+    }
+
+    .homeContent {
+        max-width: 100%;
+    }
+
+    .homeContent h1 {
+        font-size: 38px;
+    }
+
+    .homeContent h3 {
+        font-size: 22px;
+    }
+
+    .homeContent p {
+        font-size: 15px;
+    }
+
+    .homeSci {
+        justify-content: center;
+    }
+
+    .imgContainer {
+        width: 260px;
+        height: 260px;
+    }
+
+    .imgWrapper {
+        width: 244px;
+        height: 244px;
+    }
+
+    /* About section — stack vertically */
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 6%;
+        gap: 36px;
+    }
+
+    .aboutImg .imgWrapper {
+        width: 240px;
+        height: 240px;
+    }
+
+    .aboutDetails {
+        justify-content: center;
+    }
+
+    /* Skills */
+    .skills {
+        padding: 60px 0;
+    }
+
+    .skillsHeading {
+        font-size: 34px;
+    }
+
+    .card {
+        flex: 0 0 140px;
+    }
+
+    /* Projects */
+    .projects {
+        width: 92%;
+        padding: 40px 24px;
+    }
+
+    .projectsHeading {
+        font-size: 34px;
+        align-self: center;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 60px 6%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactInfo {
+        width: 100%;
+        max-width: 480px;
+    }
+}
+
+/* -------------------------
+   MOBILE  (up to 480px)
+   ------------------------- */
+@media (max-width: 480px) {
+    .header {
+        padding: 14px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar {
+        width: 85%;
+    }
+
+    /* Home */
+    .home {
+        padding: 110px 5% 50px;
+        gap: 28px;
+    }
+
+    .homeContent h1 {
+        font-size: 30px;
+    }
+
+    .homeContent h3 {
+        font-size: 18px;
+    }
+
+    .homeContent p {
+        font-size: 14px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .imgContainer {
+        width: 210px;
+        height: 210px;
+    }
+
+    .imgWrapper {
+        width: 196px;
+        height: 196px;
+    }
+
+    /* About */
+    .about {
+        padding: 50px 5%;
+    }
+
+    .aboutContent h2 {
+        font-size: 32px;
+    }
+
+    .aboutContent p {
+        font-size: 14px;
+    }
+
+    .aboutImg .imgWrapper {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Skills */
+    .skillsHeading {
+        font-size: 28px;
+        padding: 0 5%;
+    }
+
+    .card {
+        flex: 0 0 120px;
+        padding: 14px 8px;
+    }
+
+    .skillImg img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .skillName p {
+        font-size: 14px;
+    }
+
+    .viewproject {
+        font-size: 11px;
+    }
+
+    /* Projects */
+    .projects {
+        width: 94%;
+        padding: 32px 16px;
+        margin: 50px auto;
+    }
+
+    .projectsHeading {
+        font-size: 28px;
+    }
+
+    .lockIcon {
+        font-size: 36px;
+    }
+
+    .lockedContent p {
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 50px 5%;
+    }
+
+    .contactHeading h2 {
+        font-size: 32px;
+    }
+
+    .contactForm .btn-primary {
+        width: 100%;
+    }
+}

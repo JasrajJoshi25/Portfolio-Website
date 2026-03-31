@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasraj Joshi - Software Developer & Web Developer Portfolio">
+    <title>Jasraj Joshi | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles\about.css">
+    <link rel="stylesheet" href="Styles\navbar.css">
+    <link rel="stylesheet" href="Styles\home.css">
+    <link rel="stylesheet" href="Styles\about.css">
+    <link rel="stylesheet" href="Styles\skills.css">
+    <link rel="stylesheet" href="Styles\project.css">
+    <link rel="stylesheet" href="Styles\contact.css">
+    <link rel="stylesheet" href="Styles\responsive.css">
+    <link rel="stylesheet" href="Styles\general.css">
+
+    <style>
+
+        .svg-icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.125em;
+            fill: currentColor;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Jasraj.</a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#homePage">Home</a>
+            <a href="#aboutPage">About Me</a>
+            <a href="#skillsPage">Skills</a>
+            <a href="#projectPage">Projects</a>
+            <a href="#contactPage">Contact</a>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="home" id="homePage">
+        <div class="homeContent">
+            <h3>Hello, It's Me</h3>
+            <h1>Jasraj Joshi</h1>
+            <h3>I am a <span id="typewriter"></span><span class="cursor">|</span></h3>
+            <p>
+                I'm a passionate and dedicated software developer with a strong foundation
+                in programming and problem-solving. With experience in various programming
+                languages and frameworks, I enjoy creating innovative solutions to complex challenges.
+            </p>
+            <div class="homeSci">
+                <button class="btn-primary" onclick="location.href='SRC\Jasraj Joshi CV.pdf'">Download CV</button>
+                <button class="btn-secondary" onclick="location.href='#aboutPage'">Know More</button>
+            </div>
+        </div>
+
+        <div class="homeImage">
+            <div class="imgContainer">
+                <div class="imgWrapper">
+                    <img src="SRC\pfp.jpeg" alt="Jasraj Joshi - Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="aboutPage">
+        <div class="aboutImg">
+            <div class="imgWrapper">
+                <img src="SRC/pfp.jpeg" alt="Jasraj Joshi - About Picture">
+            </div>
+        </div>
+
+        <div class="aboutContent">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate software developer with a strong foundation in programming
+                and problem-solving. I work across a variety of languages and frameworks,
+                always focused on building clean, efficient solutions.
+            </p>
+            <p>
+                I'm always eager to learn new technologies and stay up to date with industry
+                trends. I'm fluent in English, Hindi, and Japanese — and I bring that same
+                adaptability to my code. I'm a quick learner and a team player, ready to
+                collaborate and contribute to meaningful projects.
+            </p>
+            <div class="aboutDetails">
+                <div class="detail">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/>
+                    </svg>
+                    <span>Full Stack Developer</span>
+                </div>
+                <div class="detail">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.5 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.5-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/>
+                    </svg>
+                    <span>Multilingual: EN | HI | JP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skillsPage">
+        <div class="skillsHeading">
+            <h2>Skills.</h2>
+        </div>
+        <div class="carousel">
+            <div class="group">
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/html.webp" alt="HTML"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>HTML</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/css.jpg" alt="CSS"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>CSS</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/JS.jpg" alt="JavaScript"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>JavaScript</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/React.jpg" alt="React"></div>
+                    <div class="mastery medium"><p>Intermediate</p></div>
+                    <div class="skillName"><p>React</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/py.webp" alt="Python"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>Python</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+            </div>
+
+            <div class="group" aria-hidden>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/html.webp" alt="HTML"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>HTML</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/css.jpg" alt="CSS"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>CSS</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/JS.jpg" alt="JavaScript"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>JavaScript</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/React.jpg" alt="React"></div>
+                    <div class="mastery medium"><p>Intermediate</p></div>
+                    <div class="skillName"><p>React</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+                <div class="card">
+                    <div class="skillImg"><img src="SRC/py.webp" alt="Python"></div>
+                    <div class="mastery pro"><p>Proficient</p></div>
+                    <div class="skillName"><p>Python</p></div>
+                    <button class="viewproject" onclick="location.href='#projectPage'">View Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projectPage">
+        <div class="projectsHeading">
+            <h2>Projects.</h2>
+        </div>
+        <div class="lockedContent">
+            <svg class="svg-icon lockIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width:3rem;height:3rem;">
+                <path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/>
+            </svg>
+            <p>This content is locked. Will be updated soon.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contactPage">
+        <div class="contactHeading">
+            <h2>Contact Me.</h2>
+            <p>Feel free to reach out — I'd love to connect!</p>
+        </div>
+        <div class="contactContainer">
+            <div class="contactInfo">
+                <div class="contactItem">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                    </svg>
+                    <span>jasrajjoshi25117@gmail.com</span>
+                </div>
+                <div class="contactItem">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                    </svg>
+                    <span>+91 9173442704</span>
+                </div>
+                <div class="contactItem">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                    </svg>
+                    <span>github.com/JasrajJoshi25</span>
+                </div>
+                <div class="contactItem">
+                    <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                    </svg>
+                    <span>linkedin.com/in/jasraj</span>
+                </div>
+            </div>
+            <form class="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="Script/navBar.js"></script>
+    <script src="Script/typewrite.js"></script>
+</body>
+</html>
